@@ -85,9 +85,10 @@
   % You can add your own with \printinfo{symbol}{detail}
   \email{gannulaxmareddy@gmail.com}
 %   \phone{000-00-0000}}
+  \faGithub\href{https://github.com/}{laxma-reddy} 
+  \linkedin{laxmareddy-gannu-476822249}
   \location{Telangana,India}
   \twitter{@Laxma_Reddy_}
-  \linkedin{laxmareddy-gannu-476822249}
 %   \github{github.com/mmayer} % I'm just making this up though.
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
@@ -163,9 +164,10 @@ Matriculation (\textbf{10th}) & Paramita IIT and Medical League.  & Board of sec
 \begin{rSection}\cvsection{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages &  C,Python,HTML5,CSS,JavaScript. \\
+Programming Languages &  C,Python,JavaScript.\\
+Web Technologies & HTML,CSS\\
 Theoritical Exposure & DBMS concepts.\\
-Version Control & GIT. \\
+Version Control & GIT , Github. \\
 Software \& Tools &  Microsoft Office (Word, Excel, PowerPoint), Visual Studio Code.   \\
 Operating System & Windows. \\
 Client/Server Protocol & HTTP.\\ \\
