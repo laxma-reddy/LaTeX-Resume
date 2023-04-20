@@ -78,7 +78,7 @@
 \name{LAXMA REDDY}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
-\photoR{2.5cm}{Laxma.jpg}
+\photoR{2.5cm}{Laxma Reddy.jpg}
 % \photoL{2cm}{Yacht_High,Suitcase_High}
 \personalinfo{%
   % Not all of these are required!
@@ -192,7 +192,7 @@ Client/Server Protocol & HTTP.\\ \\
 \begin{rSection}\cvsection{EXTRA CURRICULAR ACTIVITIES}
 \item	Represented my college in Various BasketBall Tournaments.
 \item	Involved in Event Management at school.
-\item   Co-ordinator of BasketBall CMRIT\\
+\item   I am the executive co-ordinator of the college Sports Club\\
 
 
 \end{rSection}
@@ -202,7 +202,8 @@ Client/Server Protocol & HTTP.\\ \\
 \item Certified for Artificial Intelligence by Coursera.
 \item Certified for Java Programming by Infosys Springboard.
 \item Certified for Python Programming by Tata STRIVE.
-\item Certified for Cyber Security by Cisco.\\
+\item Certified for Cyber Security by Cisco.
+\item Certified for Java and DBMS by Cisco.\\
 \end{itemize}
 \end{rSection}
 
