@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.6.5, 3 Nov 2022) written by LianTze Lim (liantze@gmail.com), based on the
+% CV created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a3paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 package.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+% \colorlet{tagline}{PastelRed}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+% \input{pubs-authoryear}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{LAXMA REDDY}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%% You can add multiple photos on the left or right
+\photoR{2.5cm}{Laxma.jpg}
+% \photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{gannulaxmareddy@gmail.com}
+%   \phone{000-00-0000}}
+  \location{Telangana,India}
+  \twitter{@Laxma_Reddy_}
+  \linkedin{laxmareddy-gannu-476822249}
+%   \github{github.com/mmayer} % I'm just making this up though.
+%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+	%%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+%----------------------------------------------------------------------------------------
+%   Objective section
+%----------------------------------------------------------------------------------------
+\begin{rSection}\cvsection{CAREER OBJECTIVE}
+          I am looking for an opportunity to utilize my technical skills for achieving the target and developing the best performance in the organization . I would like to implement my innovative ideas, skills and creative  for accomplishing the projects.Seeking an opportunity to work for an organization to have a platform to learn and explore new technologies and to improve my skills.\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}\cvsection{Education}
+\begin{tabular}{ ||c|c|c|c|c| } \hline
+\textbf{Course} &  \textbf{Institution} &\textbf{Board/University} &\textbf{Year of} &\textbf{Percentage} \\
+                   &  & &\textbf{Completion} &\\  \hline
+B.Tech(CSE) & {CMR Institute Of Technology, Hyderabad.}& Autonomous, JNTUH affiliated. && 
+7.9(CGPA)
+\\ 
+                 &  & &2024 & \\ \hline
+            
+
+Intermediate (\textbf{12th}) & Excellencia Junior College & Board of 
+Intermediate, Telangana. 
+ & & \textbf{94}\\                                  &  Shamirpet, Telangana. & &2020 &\\ \hline
+Matriculation (\textbf{10th}) & Paramita IIT and Medical League.  & Board of secondary education, Telangana.&  & \textbf{9.8(CGPA)}\\                                      & Karimnagar,Telangana. & &2018 &\\ \hline 
+
+
+\end{tabular} \\
+ 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}\cvsection{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages &  C,Python,HTML5,CSS,JavaScript. \\
+Theoritical Exposure & DBMS concepts.\\
+Version Control & GIT. \\
+Software \& Tools &  Microsoft Office (Word, Excel, PowerPoint), Visual Studio Code.   \\
+Operating System & Windows. \\
+Client/Server Protocol & HTTP.\\ \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------------
+%personal skills
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}\cvsection{personal skills}
+\item 	Quick learner
+\item	Multitasking and creative
+\item	Punctual \\
+\item	Positive attitude\\ \\
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------------
+%EXTRA CURRICULAR ACTIVITIES
+%------------------------------------------------------------------------------------------
+\begin{rSection}\cvsection{EXTRA CURRICULAR ACTIVITIES}
+\item	Represented my college in Various BasketBall Tournaments.
+\item	Involved in Event Management at school.
+\item   Co-ordinator of BasketBall CMRIT\\
+
+
+\end{rSection}
+
+\begin{rSection}\cvsection{Academic Achievements} \itemsep -2pt
+\begin{itemize}
+\item Certified for Artificial Intelligence by Coursera.
+\item Certified for Java Programming by Infosys Springboard.
+\item Certified for Python Programming by Tata STRIVE.
+\item Certified for Cyber Security by Cisco.\\
+\end{itemize}
+\end{rSection}
+
+% New Page \newpage
+
+\begin{rSection}\cvsection{Hobbies and Interests} \itemsep -3pt
+\begin{itemize}
+\item 	Travelling. 
+\item	Playing Games. 
+\item	Surfing Web.
+\item   Listening Music. 
+\\
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}\cvsection{PERSONAL PROFILE}
+\begin{tabular}{ll}
+	\textbf{Date of Birth}:  &    	19/11/2001 \\
+   \textbf{Father’s Name}:  &   	G.Ramana Reddy\\
+	\textbf{Mother’s Name}:	&  G.Laxmi\\
+	\textbf{Language known}  & English,Telugu \& Hindi \\
+	\textbf{Nationality}:    &	Indian
+
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}\cvsection{DECLARATION}
+I hereby declare that the above written particulars are true to my knowledge and belief.\\ \\
+
+\textbf{Place} : Hyderabad  \hfill {\emph{}{LAXMA REDDY}} 
+\\Date  :
+
+
+\end{rSection}
+
+\end{document}
